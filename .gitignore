@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+cat > requirements.txt <<'EOF'
+dbt-core==1.12.6
+dbt-bigquery==1.12.2
+
+# dbt
+target/
+dbt_packages/
+logs/
+.user.yml
